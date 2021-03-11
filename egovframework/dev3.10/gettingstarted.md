@@ -128,14 +128,14 @@ repostiory
 -   구현도구에서 File\>Import.. 메뉴를 선택한다.
 
 ![구현도구에서 File\>Import.. 메뉴를
-선택](/egovframework/dev/프로젝트_반입.png){width="800"}
+선택](/images/dev/프로젝트_반입.png){width="800"}
 
 -   Import wizard에서 General\>Existing Projects into Workspace 를
     선택한다.
 -   next 버튼을 클릭한다.
 
 ![Import wizard에서 General\>Existing Projects into Workspace 를 선택후
-next 버튼을 클릭](/egovframework/dev/프로젝트_반입_1.png)
+next 버튼을 클릭](/images/dev/프로젝트_반입_1.png)
 
 -   Import Projects에서 select archive file 항목을 선택하고 제공한
     egovGettingStarted.zip 파일을 지정한다.
@@ -143,7 +143,7 @@ next 버튼을 클릭](/egovframework/dev/프로젝트_반입_1.png)
 
 ![Import Projects에서 select archive file 항목을 선택하고 제공한
 egovGettingStarted.zip 파일을 지정하여 Finish 버튼을
-클릭한다.](/egovframework/dev/프로젝트_임포트_2.png)
+클릭한다.](/images/dev/프로젝트_임포트_2.png)
 
 ### Maven을 이용한 빌드
 
@@ -158,7 +158,7 @@ egovGettingStarted.zip 파일을 지정하여 Finish 버튼을
 
 ![개발환경에서 egovframework.guide 프로젝트를 마우스 오른쪽 버튼으로
 클릭하고 Run As\>Maven Build를
-클릭](/egovframework/dev/메이븐_빌드_수행1.png){width="600"}
+클릭](/images/dev/메이븐_빌드_수행1.png){width="600"}
 
 -   Run 버튼을 클릭한다.
 
@@ -220,12 +220,12 @@ egovGettingStarted.zip 파일을 지정하여 Finish 버튼을
 
 ![프로젝트의 src/main/java에서 HelloWorldClient.java를 마우스 오른쪽
 버튼으로 클릭하고 Run As\>Java Application 을
-클릭](/egovframework/dev/helloworld_실행.png)
+클릭](/images/dev/helloworld_실행.png)
 
 -   Console창에서 다음과 같은 실행 결과를 확인 할 수 있다.
 
 ![Console창에서 다음과 같은 실행 결과를
-확인](/egovframework/dev/helloworld_실행결과.png)
+확인](/images/dev/helloworld_실행결과.png)
 
 ### HelloWorld 테스트 실행
 
@@ -242,13 +242,13 @@ HelloWorld 프로젝트는 JUnit Test Framework 기반의 Test Case를 포함하
 
 ![프로젝트의 src/test/java에서 HelloWorld 서비스의 junit test
 case(HelloWorldServiceTest.java)를 마우스 오른쪽 버튼으로 클릭하고 Run
-As\>Junit test 을 클릭](/egovframework/dev/junit_테스트_실행.png)
+As\>Junit test 을 클릭](/images/dev/junit_테스트_실행.png)
 
 -   JUnit 결과창에서 다음과 같이 테스트(testSayHello)의 수행시간 및
     성공여부를 확인 할 수 있다.
 
 ![JUnit 결과창에서 다음과 같이 테스트(testSayHello)의 수행시간 및
-성공여부를 확인](/egovframework/dev/junit_테스트_결과.png)
+성공여부를 확인](/images/dev/junit_테스트_결과.png)
 
 ## Step 3. 자세히 들여다 보기
 
