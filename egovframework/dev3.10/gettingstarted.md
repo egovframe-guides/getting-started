@@ -163,7 +163,7 @@ egovGettingStarted.zip 파일을 지정하여 Finish 버튼을
 -   Run 버튼을 클릭한다.
 
 ![Run 버튼을
-클릭](/egovframework/dev/메이븐_빌드_수행2.png){width="600"}
+클릭](/images/dev/메이븐_빌드_수행2.png){width="600"}
 
 -   콘솔창에서 Maven 빌드의 결과를 확인하다. 메이븐 빌드는 프로젝트의
     컴파일, 테스트, 패키징을 모두 수행하고 그 결과를 제공한다.
