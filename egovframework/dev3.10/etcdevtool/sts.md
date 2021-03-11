@@ -25,7 +25,7 @@ Eclipse
 1\. STS에서 Spring Legacy Project를 생성한다.
 
 메뉴표시줄에서 File \> New \> Spring Legacy Project를 선택한다.\
-![](/egovframework/dev3.10/etcdevtool/sts/1createproject.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/1createproject.png){width="600"}\
 \
 
 2\. Templates에서 Simple Spring Web Maven를 선택한다.
@@ -33,11 +33,11 @@ Eclipse
 3\. 프로젝트 명을 입력하고 Finish를 클릭한다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/2simplespringwebmaven.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/2simplespringwebmaven.png){width="600"}\
 
 4\. 프로젝트가 maven으로 되어있지 않으면, 프로젝트 선택 후 마우스 오른쪽
 버튼 Configure \> Convert to Maven Project를 선택한다.\
-![](/egovframework/dev3.10/etcdevtool/sts/3converstmaven.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/3converstmaven.png){width="600"}\
 
 ## Step 2. 공통컴포넌트 배포파일 다운로드
 
@@ -46,11 +46,11 @@ Eclipse
 접속하여 다운로드 \> 공통컴포넌트를 선택한다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/5downloadcommon.png){width="1000"}\
+![](/images/dev3.10/etcdevtool/sts/5downloadcommon.png){width="1000"}\
 2. 필요한 공통컴포넌트 버전의 all-in-one 배포파일을 다운로드 받는다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/6downloadcommon.png){width="1000"}\
+![](/images/dev3.10/etcdevtool/sts/6downloadcommon.png){width="1000"}\
 
 ## Step 3. 공통컴포넌트 배포파일 import 및 실행
 
@@ -59,27 +59,27 @@ Eclipse
 넣는다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/14download_common.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/14download_common.png){width="600"}\
 2. 프로젝트명을 마우스 우클릭하여 Maven \> Update Project\...를
 실행한다. (Force Update of Snapshots/Releases를 선택한다)
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/8updatemaven.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/8updatemaven.png){width="600"}\
 \
-![](/egovframework/dev3.10/etcdevtool/sts/9updatemaven.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/9updatemaven.png){width="600"}\
 3. 프로젝트명을 마우스 우클릭하여 run as \> maven clean과 install을
 실행한다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/7runinstall.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/7runinstall.png){width="600"}\
 4. 프로젝트명을 마우스 우클릭하여 run as \> run on server을 실행한다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/10runonserver.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/10runonserver.png){width="600"}\
 5. 공통컴포넌트를 설치한 뒤, 실행시키면 아래와 같은 창을 확인할 수 있다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/12final.png){width="1000"}\
+![](/images/dev3.10/etcdevtool/sts/12final.png){width="1000"}\
 ===== 참고 ======
 
 #### 리파지토리 설정
@@ -88,7 +88,7 @@ Preferences \> Maven \> User Settins에서 리파지토리 위치를 설정할 �
 있다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/12mavensetting.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/12mavensetting.png){width="600"}\
 
 #### 서버설정
 
@@ -96,7 +96,7 @@ Preferences \> Maven \> User Settins에서 리파지토리 위치를 설정할 �
 선택하고 필요한 서버를 추가한다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/11newserver.png){width="600"}\
+![](/images/dev3.10/etcdevtool/sts/11newserver.png){width="600"}\
 
 #### 공통컴포넌트 설정도구
 
@@ -107,4 +107,4 @@ properties 파일에 수동으로 정보를 입력한다. 그리고 maven clean,
 install을 한 후 run as-run on server 를 실행한다.
 
 \
-![](/egovframework/dev3.10/etcdevtool/sts/13globalproperties.png){width="1000"}\
+![](/images/dev3.10/etcdevtool/sts/13globalproperties.png){width="1000"}\

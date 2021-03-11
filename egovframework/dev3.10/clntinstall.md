@@ -12,7 +12,7 @@
 \- 인터넷 웹브라우저를 통해 eGovFrame
 홈페이지([https://www.egovframe.go.kr/)에](https://www.egovframe.go.kr/)에)
 접속하여 사이트 상위메뉴를 통해 "다운로드\>개발환경\"으로 이동한다.\
-![](/egovframework/dev3.10/dev_download_3.10.jpg) - 환경에 따라 다운받을
+![](/images/dev3.10/dev_download_3.10.jpg) - 환경에 따라 다운받을
 개발환경을 선택한다.\
 - 첨부된 파일을 다운로드받아 압축을 해제한다.\
 \
@@ -20,7 +20,7 @@
 ### 개발자 개발환경 실행
 
 1.  eclipse를 실행한다.\
-    ![](/egovframework/dev3.10/dev_directory_structure.png)\
+    ![](/images/dev3.10/dev_directory_structure.png)\
     \
     ✔ Fail to create Java Virtual Machine 오류가 발생할 경우 eclipse가
     설치된 디렉토리의 **eclipse.ini** 파일에 JVM 경로를 지정해 주도록
@@ -32,11 +32,11 @@
     \*\* 이클립스 버전별 지원 자바 버전은 [환경
     설정](/egovframework/dev3.10/overview#환경 설정)에서 확인 가능하다.
     \*\*\
-    ![](/egovframework/dev3.10/install_vm_v3.10.png)\
+    ![](/images/dev3.10/install_vm_v3.10.png)\
     \
     - eclipse를 실행 후 Workspace Launcher 팝업이 나타나면 전자정부
     개발환경에서 제공하는 workspace를 선택한다.\
-    ![](/egovframework/dev3.10/dev_workspace_setting.png)\
+    ![](/images/dev3.10/dev_workspace_setting.png)\
 
 ✔ 전자정부 표준프레임워크에서는 eclipse에 eGovFrame 관련 설정정보를
 세팅하여 배포한다.\
@@ -48,14 +48,14 @@
 
 1.  eclipse가 정상적으로 실행되면 우측 상단의 Perspective가
     eGovFrame으로 되어있는지 확인한다.\
-    ![](/egovframework/dev2/install_perspective.jpg)
+    ![](/images/dev2/install_perspective.jpg)
 
 ✔ 만약 Perspective가 eGovFrame이 아닐 경우 다음의 절차를 따른다.
 
 -   Perspective 좌측에 있는 아이콘을 클릭하여 \"[O]{.ul}ther\... \> Open
     Perspective \> eGovFrame\"을 선택한다.\
-    ![](/egovframework/dev2/install_other.jpg){width="250"}\
-    ![](/egovframework/dev2/install_select.jpg)\
+    ![](/images/dev2/install_other.jpg){width="250"}\
+    ![](/images/dev2/install_select.jpg)\
     \
 
 ## Step 2. 프로젝트 생성 및 실행
@@ -67,14 +67,14 @@
     또는, **Ctrl+N** 단축키를 이용하여 새로작성 마법사를 실행한 후
     **eGovFrame** \> **eGovFrame Web Project**을 선택하고 **Next**를
     클릭한다.\
-    ![](/egovframework/dev2/imp/editor/ide/4th_new_web.png)\
+    ![](/images/dev2/imp/editor/ide/4th_new_web.png)\
     \
     - 프로젝트 명과 Maven 설정에 필요한 값들을 입력하고 **Next**를
     클릭한다.\
-    ![](/egovframework/dev2/imp/editor/웹.png)\
+    ![](/images/dev2/imp/editor/웹.png)\
     \
     - 예제 소스 파일 생성 여부를 체크하고 **Finish**를 클릭한다.\
-    ![](/egovframework/dev2/imp/editor/ide/4th_web_example.png)\
+    ![](/images/dev2/imp/editor/ide/4th_web_example.png)\
     \
 
 ### 서버 설치
@@ -83,7 +83,7 @@
 
 1.  eclipse 하단의 Servers 탭을 클릭하고, 마우스 우클릭하여
     \"Ne[w]{.ul} \> Server\"를 선택한다.\
-    ![](/egovframework/dev2/install_new_server.jpg)\
+    ![](/images/dev2/install_new_server.jpg)\
     \
     - Apache \> Tomcat v8.0 Server를 선택 후 Next를 클릭하고 Download
     and Install 버튼을 클릭하여 서버 설치를 완료한다.
@@ -93,23 +93,23 @@
 ```
       ✔ 개발환경 3.7 이상의 경우 Tomcat 8.0 이상을 권장한다. \\
 
-![](/egovframework/dev3.10/install-newsvr_v8.png)
-![](/egovframework/dev3.10/install_tomcatsvr_v8.png)\
+![](/images/dev3.10/install-newsvr_v8.png)
+![](/images/dev3.10/install_tomcatsvr_v8.png)\
 \
 
 ### 프로젝트 실행
 
 1.  실행할 프로젝트를 마우스 우클릭하고 \"[R]{.ul}un As \> Run on
     Server\"를 선택한다.\
-    ![](/egovframework/dev2/install_runonsvr.jpg)\
+    ![](/images/dev2/install_runonsvr.jpg)\
     \
     - Choose an existing server를 선택하고 [서버
     설치](/egovframework/dev3.5/clntinstall#서버 설치)에서 설치한 서버를
     선택 후 Next 버튼을 클릭하고 실행할 프로젝트를 Add한다.\
-    ![](/egovframework/dev3.5/install_choosesvr_v7.jpg)
-    ![](/egovframework/dev2/install_configuresvr.jpg)\
+    ![](/images/dev3.5/install_choosesvr_v7.jpg)
+    ![](/images/dev2/install_configuresvr.jpg)\
     - 다음과 같은 화면이 실행되는지 확인한다.\
-    ![](/egovframework/dev2/basicsample.jpg)\
+    ![](/images/dev2/basicsample.jpg)\
 
 ✔ 프로젝트 생성 후 \"Could not open JDBC Connection for transaction\"
 메시지가 나타날 경우 [HSQLDB 설정
@@ -126,15 +126,15 @@ HSQLDB를 연결한다.\
     예제를 실습해 보도록 한다.\
     - DB 정보를 변경할 프로젝트의 sql-map-config.xml 파일을 다음과 같이
     수정한다.\
-    ![](/egovframework/dev2/sqlmapconf.jpg)\
+    ![](/images/dev2/sqlmapconf.jpg)\
     - context-datasource.xml 파일을 다음과 같이 수정하고 사용할 DB
     정보를 입력한다.\
-    ![](/egovframework/dev2/contextds.jpg)\
+    ![](/images/dev2/contextds.jpg)\
     - pom.xml 파일에 다음과 같은 dependency를 추가한다.\
-    ![](/egovframework/dev3.10/dependency.png)\
+    ![](/images/dev3.10/dependency.png)\
     - 프로젝트 마우스 우클릭 후 \"[R]{.ul}un As \> Maven install\"을
     선택한다.\
-    ![](/egovframework/dev3.10/maveninstall.png)\
+    ![](/images/dev3.10/maveninstall.png)\
 
 ### Data Source Explorer 연결
 
@@ -148,7 +148,7 @@ HSQLDB를 연결한다.\
 eclipse.ini 파일을 다음과 같이 수정한다.\
 **-Duser.language=en**\
 **-Duser.country=US**\
-![](/egovframework/dev3.5/install_en-j7.jpg)
+![](/images/dev3.5/install_en-j7.jpg)
 
 ✔ 개발자 개발환경의 국문 버전을 사용할 경우 eclipse 설치 디렉토리에 있는
 eclipse.ini 파일을 동일한 방법으로 수정한다.\
@@ -163,7 +163,7 @@ eclipse.ini 파일을 동일한 방법으로 수정한다.\
 
 1\. eclipse theme 기능 변경
 
-![](/egovframework/dev2/eclipse성능개선_theme수정.jpg)
+![](/images/dev2/eclipse성능개선_theme수정.jpg)
 
      - Window >> Preferences >> General >> Appearance >> Theme를 Classic으로 변경.
      - Use mixed fonts and colors for labels 체크를 해지

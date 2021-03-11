@@ -62,10 +62,10 @@ Mapper 맵핑 파일을 추가한다.
 1.  상단 메뉴의 [^1] eGovFrame -\> Implementation -\> New Mapper
     Configuration 또는 Context Menu의 New -\> mapperConfiguration 를
     통해 파일을 생성한다.\
-    ![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig-new.png)\
+    ![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig-new.png)\
     \<sup\> \<그림 2\> mapperConfiguration 생성방법 1 \</sup\>\
     \
-    ![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig-new2.png)\
+    ![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig-new2.png)\
     \<sup\> \<그림 3\> mapperConfiguration 생성방법 2 \</sup\>\
     \
     - mapperConfiguration 파일이 위치할 폴더를 선택하고 파일명을
@@ -78,7 +78,7 @@ Package Explorer 에서 해당 Mapper Configuration File을 선택하고
 더블클릭하거나 열기를 누르면 자동으로 Mapper Configuration Editor 로
 열리게 된다.
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-2.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-2.png)\
 \<sup\> \<그림 4\> Mapper Configuration File의 선택 \</sup\>
 
 단, Mapper Configuration file에 이상이 있거나, 다른 이유로 Mapper
@@ -86,7 +86,7 @@ Configuration Editor 로 열리지 않을 때에는 context menu 의 open with
 기능을 사용하여 editor 를 Mapper Configuration Editor 로 선택해야 한다.
 (\<그림 5\> 참조)
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-3.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-3.png)\
 \<sup\> \<그림 5\> Mapper Configuration Editor 로 자동으로 열리지 않을
 경우 \</sup\>
 
@@ -99,12 +99,12 @@ Configuration Editor 로 열리지 않을 때에는 context menu 의 open with
     우측에 있는 \"Add\", \"Remove\" 버튼을 활용한다. TypeAlias 를
     초기화할 경우에는 \"Init\" 버튼을 눌러 모든 항목을 초기화한다.
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-4.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-4.png)\
 \<sup\> \<그림 6\> TypeAlias \</sup\>
 
 ### Mapper 목록 사용법
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-5.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-5.png)\
 \<sup\> \<그림 7\> Mapper 목록 \</sup\>
 
 1.  Mapper 목록 우측에 있는 \"add\" 버튼을 클릭하여 Mapper 파일을
@@ -120,13 +120,13 @@ Configuration Editor 로 열리지 않을 때에는 context menu 의 open with
     filter 를 사용하여 Mapper 파일 항목을 선택적으로 조회할 수 있다.
     (\<그림 10\> 참조)
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-6.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-6.png)\
 \<sup\> \<그림 8\> Mapper 파일 검색 \</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-7.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-7.png)\
 \<sup\> \<그림 9\> Mapper 파일 신규 생성 화면 \</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-8.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-8.png)\
 \<sup\> \<그림 10\> Mapper 목록의 filter 적용 \</sup\>
 
 ### Mapper Configuration File의 소스 직접 수정하기
@@ -137,7 +137,7 @@ Configuration Editor 로 열리지 않을 때에는 context menu 의 open with
     \"파일명.xml\" 이라는 제목의 Tab 을 클릭하면 Form UI를 사용하지 않고
     XML Source 를 직접 수정할 수 있다. (\<그림 11\> 참조)
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mapperconfig1-9.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mapperconfig1-9.png)\
 \<sup\> \<그림 11\> Mapper Configuration 파일 직접 수정 \</sup\>
 
 [^1]: \"eGovFrame\" 메뉴는 eGovFrame Perspective 환경에서만 나타난다.

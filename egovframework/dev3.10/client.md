@@ -20,7 +20,7 @@
 
 #### 구성도
 
-![](/egovframework/dev2/bdev/imp/lightver.jpg)\
+![](/images/dev2/bdev/imp/lightver.jpg)\
 Implementation Tool과 Test Tool에서 제공하는 전체 기능 중 개발자들이
 필수적으로 사용하는 기능은 SourceCode Editor, IDE, Common Component,
 Customize Development Tool, UML Editor, Code Generation, Code
@@ -52,7 +52,7 @@ Inspection, Server Connection Management, Unit Test, Test Automation
 
 #### 구성도
 
-![](/egovframework/dev2/bdev/imp/fullver.jpg)\
+![](/images/dev2/bdev/imp/fullver.jpg)\
 통합 개발환경은 개발자 필수 기능, 선택 기능과 함께 모바일 개발환경이
 포함되어 있다.
 

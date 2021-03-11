@@ -42,13 +42,13 @@
     홈페이지([https://www.egovframe.go.kr/)에](https://www.egovframe.go.kr/)에)
     접속하여 사이트 상위메뉴를 통해 "다운로드\>개발환경\>3.x
     다운로드\"으로 이동한다.\
-    ![](/egovframework/dev3.10/install_file_download0.png){width="800"}\
+    ![](/images/dev3.10/install_file_download0.png){width="800"}\
     \
     - 서버 개발환경 게시물을 조회한다.\
-    ![](/egovframework/dev3.10/install_file_download.png){width="800"}\
+    ![](/images/dev3.10/install_file_download.png){width="800"}\
     \
     - 첨부된 파일을 다운로드받아 압축을 해제한다.\
-    ![](/egovframework/dev3.10/install_file_list_v3.10.png){width="800"}\
+    ![](/images/dev3.10/install_file_list_v3.10.png){width="800"}\
 
 ### 서버환경 구성(Windows)
 

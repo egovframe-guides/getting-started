@@ -21,7 +21,7 @@ XML 작성시에 사용자가 범할 수 있는 오타로 인한 오작동을 �
 
 ### 화면
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor.png)\
 \<sup\> \<그림 1\> Mapper Editor 의 화면 구성 \</sup\>
 
 ① Mapper Namespace, 그룹별 구성요소 Tree 편집 화면이다.\
@@ -134,13 +134,13 @@ Outline에서 특정 구성요소를 클릭할 경우 해당 구성요소의 편
     - Mapper 파일이 위치할 폴더를 선택하고 파일명을 입력한다.(\<그림 4\>
     참조)
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_newfile.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_newfile.png)\
 \<sup\> \<그림 2\> Mapper 파일의 생성방법1 \</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_newfile2.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_newfile2.png)\
 \<sup\> \<그림 3\> Mapper 파일의 생성방법2 \</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_newfile3.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_newfile3.png)\
 \<sup\> \<그림 4\> Mapper 파일의 생성3 \</sup\>
 
 ### Mapper Editor 열기
@@ -151,7 +151,7 @@ Pakage Explorer 에서 해당 Mapper File을 선택하고 더블클릭하거나 
 open with 기능을 사용하여 editor 를 Mapper Editor로 선택해야 한다.
 (\<그림 5\> 참조)
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_open.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_open.png)\
 \<sup\> \<그림 5\> Mapper Editor 로 열리지 않는 경우 \</sup\>
 
 ### 신규 Query Map의 작성
@@ -182,13 +182,13 @@ open with 기능을 사용하여 editor 를 Mapper Editor로 선택해야 한다
     데이타베이스 연결 설정은 Data source explorer 를 사용하여 설정할 수
     있다.
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_contextmenu.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_contextmenu.png)\
 \<sup\> \<그림 6\> Mapper Tree의 Context menu \</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_inout.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_inout.png)\
 \<sup\> \<그림 7\> QueryMap 의 In/Out 설정\</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_querytab.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_querytab.png)\
 \<sup\> \<그림 8\> Mapper Editor의 기본 Query 편집화면 \</sup\>
 
 ### Query Builder 사용하기
@@ -204,7 +204,7 @@ open with 기능을 사용하여 editor 를 Mapper Editor로 선택해야 한다
 
 #### Query Builder
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_querybuilder.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_querybuilder.png)\
 \<sup\> \<그림 9\> Mapper Editor의 Query Builder 실행화면 \</sup\>
 
 ##### 사용할 테이블 추가하기
@@ -302,10 +302,10 @@ open with 기능을 사용하여 editor 를 Mapper Editor로 선택해야 한다
 7.  \"Binding Variables\" 목록 우측에 있는 Row Limit 항목을 사용하여
     결과 행수를 제한할 수도 있다.
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_querytest.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_querytest.png)\
 \<sup\> \<그림 10\> Mapper Editor의 Query Test 화면 \</sup\>
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_queryresult.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_queryresult.png)\
 \<sup\> \<그림 11\> Mapper Editor의 Query Test 결과 화면 \</sup\>
 
 바인더 변수에 설정 가능한 데이터 타입들
@@ -351,7 +351,7 @@ open with 기능을 사용하여 editor 를 Mapper Editor로 선택해야 한다
 6.  Property를 삭제하려면 Property 목록에서 삭제할 Property 항목을
     선택하고 우측에 있는 \"Remove\"버튼을 사용하여 삭제한다.
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_result.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_result.png)\
 \<sup\> \<그림 13\> Mapper Editor의 ResultMap 작성화면 \</sup\>
 
 ### Mapper.XML 소스 직접 수정하기
@@ -363,7 +363,7 @@ open with 기능을 사용하여 editor 를 Mapper Editor로 선택해야 한다
     Mapper Tree를 보여주어 사용자의 XML 작성을 도와준다(\<그림 15\>
     참조).
 
-![](/egovframework/dev3.8/imp/editor/dbio_editor/mappereditor_xmlsource.png)\
+![](/images/dev3.8/imp/editor/dbio_editor/mappereditor_xmlsource.png)\
 \<sup\> \<그림 15\> Mapper Editor의 XML Source 편집 \</sup\>
 
 [^1]: \"eGovFrame\" 메뉴는 eGovFrame Perspective 환경에서만 나타난다.

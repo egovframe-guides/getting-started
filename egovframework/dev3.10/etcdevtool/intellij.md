@@ -26,14 +26,14 @@ Intellij에서 개발할 수 있는 간단한 활용 가이드만 제공한다.\
         인코딩을 설정해 줍니다.\
         ※ 특히 .properties 파일등 Unicode로 표시 되는 경우 Transparent
         native-to-ascii conversion 을 체크 해 줍니다.\
-        ![](/egovframework/dev3.10/etcdevtool/intellij/settings_encoding.png)\
+        ![](/images/dev3.10/etcdevtool/intellij/settings_encoding.png)\
         \
 
 ## STEP1. 프로젝트 생성
 
 \- File \> New \> Project 에서 Empty Project 생성\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/createemptyproject.png)\
+![](/images/dev3.10/etcdevtool/intellij/createemptyproject.png)\
 \
 ※ Eclipse 계열에서 사용하는 \'project\'라는 용어와 IntelliJ 에서
 사용하는 \'project\'의 개념에는 차이가 있으므로 구분 할 필요가 있다.
@@ -49,18 +49,18 @@ Eclipse](https://www.jetbrains.com/help/idea/migrating-from-eclipse-to-intellij-
 \
 - Project 이름과 경로를 확인합니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/insertprojectname.png)\
+![](/images/dev3.10/etcdevtool/intellij/insertprojectname.png)\
 \
 
 \- Project Settings의 Project를 선택합니다. Project SDK와 Project
 language level을 설정합니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/project_structure_setting.png)\
+![](/images/dev3.10/etcdevtool/intellij/project_structure_setting.png)\
 \
 
 \- Modules의 추가 버튼(+)을 눌러 New Module을 선택합니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/new_module_setting.png)\
+![](/images/dev3.10/etcdevtool/intellij/new_module_setting.png)\
 \
 
 \- Next를 누릅니다.\
@@ -68,29 +68,29 @@ language level을 설정합니다.\
 - GroupId 와 ArtifactId, Version의 이름을 기입합니다. (Pom.xml은 이후
 수정 가능).\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/new_module_groupid_setting.png)\
+![](/images/dev3.10/etcdevtool/intellij/new_module_groupid_setting.png)\
 \
 - Finish를 누릅니다.\
 \
 - OK를 누릅니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/project_structure_setting_ok.png)\
+![](/images/dev3.10/etcdevtool/intellij/project_structure_setting_ok.png)\
 \
 - maven Project가 생성 되었습니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/complete_creating_mave_project.png)\
+![](/images/dev3.10/etcdevtool/intellij/complete_creating_mave_project.png)\
 \
 
 ## STEP2. 소스 가져오기
 
 \- 포털에서 공통컴포넌트에서 다운로드를 받습니다\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/portal_allinone_down.png)\
+![](/images/dev3.10/etcdevtool/intellij/portal_allinone_down.png)\
 \
 - 다운받은 소스에서 pom.xml, java, resources, webapp를 각각의 경로에
 복사합니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/copy_each_source.png)\
+![](/images/dev3.10/etcdevtool/intellij/copy_each_source.png)\
 \
 
 ## STEP3. 모듈 설정하기
@@ -102,25 +102,25 @@ Check 라는 안내 메세지가 뜰 수 있다.\
 \
 - File \> Project Structure..를 엽니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/project_structure_menu.png)\
+![](/images/dev3.10/etcdevtool/intellij/project_structure_menu.png)\
 \
 - Project Settings \> Modules \> \[모듈 명\] \> Spring \> + 버튼을
 클릭합니다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/project_structure_module_spring_setting.png)\
+![](/images/dev3.10/etcdevtool/intellij/project_structure_module_spring_setting.png)\
 \
 
 \- 필요한 Content들을 선택한지. 본 예제에서는 모든 Content들을 선택해
 준다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/project_structure_module_add_content.png)\
+![](/images/dev3.10/etcdevtool/intellij/project_structure_module_add_content.png)\
 \
 - webapp을 복사했다면 Deployment Descriptors와 Web Resource Directories
 설정이 자동으로 되어 있을것이다. 만약 설정되어 있지 않다면 +를 눌러
 Deployment Descriptor에는 web.xml을 Web Resource Directories에는 Webapp
 경로를 설정해 준다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/project_structure_module_web_setting.png)\
+![](/images/dev3.10/etcdevtool/intellij/project_structure_module_web_setting.png)\
 \
 
 ## STEP4. 서버 설정
@@ -129,18 +129,18 @@ Deployment Descriptor에는 web.xml을 Web Resource Directories에는 Webapp
 \
 우선 우측 상단의 Add Configuration..을 클릭한다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/server_add_configuration_button.png)\
+![](/images/dev3.10/etcdevtool/intellij/server_add_configuration_button.png)\
 \
 
 \- 좌측 상단의 + 버튼을 클릭하면 아래 Configuration 리스트가 나온다.
 Tomcat Server의 local을 선택해 설정 정보들을 입력한다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/server_run_debug_configuration_list.png)\
+![](/images/dev3.10/etcdevtool/intellij/server_run_debug_configuration_list.png)\
 \
 
 \- 포트 및 서버 정보들을 등록해 준다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/server_run_debug_configuration.png)\
+![](/images/dev3.10/etcdevtool/intellij/server_run_debug_configuration.png)\
 \
 Application server : 서버 프로필을 선택합니다. 등록되어있지 않다면
 Tomcat 경로를 입력해 서버 프로필을 만듭니다.\
@@ -150,6 +150,6 @@ Tomcat 경로를 입력해 서버 프로필을 만듭니다.\
 \
 Application context 도 이곳에서 수정이 가능하다.\
 \
-![](/egovframework/dev3.10/etcdevtool/intellij/server_run_debug_configuration_deployment.png)\
+![](/images/dev3.10/etcdevtool/intellij/server_run_debug_configuration_deployment.png)\
 \
 OK를 클릭하고 우측 상단의 서버 시작 버튼을 눌러 서버를 시작합니다.

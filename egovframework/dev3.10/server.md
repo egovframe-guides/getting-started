@@ -9,7 +9,7 @@
 
 전자정부 표준프레임워크에서는 경량화된 서버용 개발환경을 구성 및 설치 할
 수 있는 서버 개발환경 설치 파일 및 가이드를 제공한다.\
-![](/egovframework/dev3.8/depandconftool.png)\
+![](/images/dev3.8/depandconftool.png)\
 서버 개발환경은 전자정부 표준프레임워크 서버 개발환경 설치 시 기본으로
 설치되는 항목과 선택적으로 설치되는 항목으로 구분할 수 있다. 기본 설치
 항목은 Tomcat, Jenkins, Maven으로 구성되어 있고, 선택 항목은 Nexus와

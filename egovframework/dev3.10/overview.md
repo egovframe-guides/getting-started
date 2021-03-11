@@ -20,7 +20,7 @@
   -- ------------------------------------------------------ --------------------------------------------------------------------------- --
                                                             전체 구조 및 구성요소                                                       
 
-     ![](/egovframework/dev2/bdev/imp/개발환경구성도.jpg)                                                                               
+     ![](/images/dev2/bdev/imp/개발환경구성도.jpg)                                                                               
 
      Implementation Tool                                    프로그램 개발, 테스트, 디버그 등 개발자 개별 개발환경을 제공                
 
@@ -41,7 +41,7 @@
 개발자 개발환경은 Implementation Tool(Editor, Debug, IDE, Common
 Component, Mobile IDE, Batch IDE)과 Test Tool(Test Reporting, Unit Test,
 Batch Test)로 구성되어있다.\
-![](/egovframework/dev2/bdev/imp/clntoverview.jpg)\
+![](/images/dev2/bdev/imp/clntoverview.jpg)\
 개발자 개발환경의 세부 기능을 좀 더 자세히 살펴보면 **개발자들이
 필수적으로 사용해야 하는 기능**과 **개발 편의성을 위해 선택적으로
 사용하는 기능**으로 구분됨을 알 수 있다.\
@@ -60,7 +60,7 @@ Batch Test)로 구성되어있다.\
 
 서버 개발환경은 Deployment Tool(Build, Deploy)과 Conf. & Change Mgt.
 Tool(Configuration Management, Change Management)로 구성되어 있다.\
-![](/egovframework/dev2/bdev/imp/svroverview.jpg)\
+![](/images/dev2/bdev/imp/svroverview.jpg)\
 전자정부 표준프레임워크에서는 서버 개발환경 역시 프로젝트에서 필수적으로
 사용하는 기능과 선택적으로 사용하는 기능으로 구분하였다.\
 프로젝트 상황에 따라 Deployment Tool과 Conf. & Change Mgt. Tool 중 일부
@@ -79,7 +79,7 @@ Tool(Configuration Management, Change Management)로 구성되어 있다.\
 -   CI 서버
 -   어플리케이션 서버
 
-![](/egovframework/dev2/4._개발_프로세스_설계2.jpg)\
+![](/images/dev2/4._개발_프로세스_설계2.jpg)\
 
 ## 환경 설정
 
