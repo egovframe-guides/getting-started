@@ -51,13 +51,13 @@ HelloWorld 응용 어플리케이션을 위한 종속라이브러리를 이용�
 ### 개발환경설치
 
 먼저 eclipse 기반의 전자정부표준 프레임워크의 [구현도구(implementation
-tool) 설치](/egovframework/dev3.10/clntinstall)를 참조하여 설치한다.
+tool) 설치](/egovframework/dev3.10/clntinstall.md)를 참조하여 설치한다.
 
 ### 플러그인 업데이트
 
 설치한 구현도구의 플러그인이 최신 모듈을 사용할 수 있도록
 [구현도구(implementation tool) 플러그인
-업데이트](/egovframework/dev2/imp/editor/customize_development_tool#사용법)를
+업데이트](/egovframework/dev2/imp/editor/customize_development_tool.md#사용법)를
 참조하여 업데이트를 수행한다.
 
 ### Maven 환경설정
