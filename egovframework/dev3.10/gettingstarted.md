@@ -97,7 +97,7 @@ repostiory
     눌러서 받으세요.
 
 ![setting.xml 파일에 repository
-저장위치](/egovframework/dev3.10/settings.jpg)
+저장위치](/images/dev3.10/settings.jpg)
 
 -   구현도구를 실행한다.
 -   구현도구의 window\>preferences 메뉴를 선택하여 설정화면을 표시한다.
